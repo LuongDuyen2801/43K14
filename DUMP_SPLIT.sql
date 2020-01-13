@@ -1,4 +1,4 @@
-﻿
+﻿--vui
 update fckdump set ten = trim(ten)
 
 select right (ten, CHARINDEX(' ',reverse(ten)) - 1) from fckdump --cắt tên
