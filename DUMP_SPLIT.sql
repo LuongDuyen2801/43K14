@@ -1,4 +1,5 @@
-﻿--vui
+﻿-- vui
+-- Vuiiii da them ^^
 update fckdump set ten = trim(ten)
 
 select right (ten, CHARINDEX(' ',reverse(ten)) - 1) from fckdump --cắt tên
@@ -10,4 +11,8 @@ Mạnh đã vào đây sửa
 =======
 --Việt
 --Đây là 1 comment
+<<<<<<< HEAD
 >>>>>>> b40e7711b786c2e5a41a9c9bd5c06dbf83a20a4b
+=======
+--Nhi seen
+>>>>>>> 67f76f07973eeac6e704feee233d6ea037103a75
