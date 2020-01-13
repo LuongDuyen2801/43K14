@@ -8,3 +8,4 @@ select left(ten, len(ten) - CHARINDEX(' ',reverse(ten))) ten1 from fckdump -- c�
 
 --Việt
 --Đây là 1 comment
+--Nhi seen
